@@ -45,7 +45,7 @@ function App() {
                 <Route path='/login' element={<Login />} />
                 <Route path='/recuperar-senha' element={<RecuperarSenha />}/>
                 <Route path='/redefinir-senha' element={<RedefinirSenha />}/>
-                <Route path="/chat" element={<Chat />} />
+                <Route path='/chat' element={<Chat />} />
             </Routes>
         </BrowserRouter>
     )
