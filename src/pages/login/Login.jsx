@@ -22,7 +22,7 @@ function Login() {
             setCarregando(true)
 
             const resposta = await axios.post(
-                'http://localhost:3000/login',
+                'https://backend-integra-lzs2.onrender.com/login',
                 {
                     email,
                     senha

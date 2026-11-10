@@ -29,7 +29,7 @@ function Cadastro() {
         try {
             setCarregando(true)
 
-            const resposta = await axios.post('http://localhost:3000/alunos',
+            const resposta = await axios.post('https://backend-integra-lzs2.onrender.com/alunos',
                 {
                     nome,
                     email,
