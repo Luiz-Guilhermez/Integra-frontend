@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:3000'
+    baseURL: 'https://backend-integra-lzs2.onrender.com'
 });
 
 api.interceptors.request.use((config) => {
