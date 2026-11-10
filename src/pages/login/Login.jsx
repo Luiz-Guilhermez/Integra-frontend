@@ -22,7 +22,7 @@ function Login() {
             setCarregando(true)
 
             const resposta = await axios.post(
-                'https://backend-integra-lzs2.onrender.com/login',
+                'https://backend-integra-i1b5.onrender.com/login',
                 {
                     email,
                     senha
