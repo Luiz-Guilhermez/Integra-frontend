@@ -9,7 +9,7 @@ import Admin from './pages/admin/Admin'
 import RotaAdmin from './routes/RotaAdmin'
 import RecuperarSenha from './pages/recuperarSenha/RecuperarSenha'
 import RedefinirSenha from './pages/redefinirSenha/RedefinirSenha'
-import Chat from './pages/chat/Chat'
+import Chat from './pages/Chat/Chat'
 import './App.css'
 
 function App() {
