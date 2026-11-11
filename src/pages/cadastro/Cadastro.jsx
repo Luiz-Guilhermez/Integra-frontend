@@ -29,7 +29,7 @@ function Cadastro() {
         try {
             setCarregando(true)
 
-            const resposta = await axios.post('https://backend-integra-38cj.onrender.com/alunos',
+            const resposta = await axios.post('https://integra-backend-riop.onrender.com/alunos',
                 {
                     nome,
                     email,
